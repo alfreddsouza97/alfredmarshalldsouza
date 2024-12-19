@@ -172,7 +172,7 @@ function App() {
               Mobile Number: +91 - 9900272747<br />
               Email: alfreddsouza97@gmail.com<br />
               GitHub: <a href="https://github.com/alfreddsouza97" target="_blank" rel="noopener noreferrer">https://github.com/alfreddsouza97</a><br />
-              LinkedIn: <a href="https://www.linkedin.com/in/alfred-d-92957988/" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/alfred-d-92957988/</a><br/>
+              LinkedIn: <a href="https://www.linkedin.com/in/alfred-marshall-d-92957988/" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/alfred-marshall-d-92957988/</a><br/>
               Instagram: <a href="https://instagram.com/alfaman747/" target="_blank" rel="noopener noreferrer">https://instagram.com/alfaman747</a><br />
               Youtube: <a href="https://www.youtube.com/@AlfaMAN747/" target="_blank" rel="noopener noreferrer">https://www.youtube.com/@AlfaMAN747</a>
             </Typography>
@@ -187,7 +187,7 @@ function App() {
               Mobile Number: +91 - 9900272747<br />
               Email: alfreddsouza97@gmail.com<br />
               GitHub: <a href="https://github.com/alfreddsouza97" target="_blank" rel="noopener noreferrer">https://github.com/alfreddsouza97</a><br />
-              LinkedIn: <a href="https://www.linkedin.com/in/alfred-d-92957988/" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/alfred-d-92957988/</a><br/>
+              LinkedIn: <a href="https://www.linkedin.com/in/alfred-marshall-d-92957988/" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/alfred-marshall-d-92957988/</a><br/>
               Instagram: <a href="https://instagram.com/alfaman747/" target="_blank" rel="noopener noreferrer">https://instagram.com/alfaman747</a><br />
               Youtube: <a href="https://www.youtube.com/@AlfaMAN747/" target="_blank" rel="noopener noreferrer">https://www.youtube.com/@AlfaMAN747</a>
             </Typography>
