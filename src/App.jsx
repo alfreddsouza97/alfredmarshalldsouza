@@ -22,7 +22,7 @@
 // }
 
 // export default App;
-
+import { Analytics } from '@vercel/analytics/react';
 import React, { useState } from 'react';
 import {
   AppBar,
@@ -201,6 +201,7 @@ function App() {
           </>
         )}
       </Container>
+      <Analytics/>
     </ThemeProvider>
   );
 }
