@@ -8,4 +8,4 @@ Application Built and Deployed by ALFRED MARSHALL DSOUZA.
 - Email: alfreddsouza97@gmail.com
 - Instagram: https://instagram.com/alfaman747
 - Youtube: https://youtube.com/@alfaman747
-- LinkedIn: https://www.linkedin.com/in/alfred-d-92957988/
+- LinkedIn: https://www.linkedin.com/in/alfred-marshall-d-92957988/
