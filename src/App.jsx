@@ -22,6 +22,7 @@
 // }
 
 // export default App;
+
 import { Analytics } from '@vercel/analytics/react';
 import React, { useState } from 'react';
 import {
@@ -57,7 +58,16 @@ const theme = createTheme({
 });
 
 const songs = {
+
+  original: [
+
+    { title: "Happy B'day Jesus - Original Music Song Composed & Sung by me – ALFRED MARSHALL DSOUZA", url: "https://www.youtube.com/embed/BDUwFnvyBuQ" },
+
+
+  ],
+
   new: [
+    // { title: "Happy B'day Jesus - Original Music Song Composed & Sung by me – ALFRED MARSHALL DSOUZA", url: "https://www.youtube.com/embed/BDUwFnvyBuQ" },
     { title: "Alvida – Life in a Metro – KK’s Song", url: "https://www.youtube.com/embed/qDj_95FgmsQ" },
     { title: "Hero - Enrique Iglesias Song", url: "https://www.youtube.com/embed/Gv2370hH-aw" },
     { title: "Bheege Hont Tere – Murder – Kunal Ganjawala’s song", url: "https://www.youtube.com/embed/wgudSegjSTY" },
@@ -172,7 +182,7 @@ function App() {
               Mobile Number: +91 - 9900272747<br />
               Email: alfreddsouza97@gmail.com<br />
               GitHub: <a href="https://github.com/alfreddsouza97" target="_blank" rel="noopener noreferrer">https://github.com/alfreddsouza97</a><br />
-              LinkedIn: <a href="https://www.linkedin.com/in/alfred-marshall-d-92957988/" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/alfred-marshall-d-92957988/</a><br/>
+              LinkedIn: <a href="https://www.linkedin.com/in/alfred-marshall-dsouza-92957988/" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/alfred-marshall-dsouza-92957988/</a><br/>
               Instagram: <a href="https://instagram.com/alfaman747/" target="_blank" rel="noopener noreferrer">https://instagram.com/alfaman747</a><br />
               Youtube: <a href="https://www.youtube.com/@AlfaMAN747/" target="_blank" rel="noopener noreferrer">https://www.youtube.com/@AlfaMAN747</a>
             </Typography>
@@ -187,7 +197,7 @@ function App() {
               Mobile Number: +91 - 9900272747<br />
               Email: alfreddsouza97@gmail.com<br />
               GitHub: <a href="https://github.com/alfreddsouza97" target="_blank" rel="noopener noreferrer">https://github.com/alfreddsouza97</a><br />
-              LinkedIn: <a href="https://www.linkedin.com/in/alfred-marshall-d-92957988/" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/alfred-marshall-d-92957988/</a><br/>
+              LinkedIn: <a href="https://www.linkedin.com/in/alfred-marshall-dsouza-92957988/" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/alfred-marshall-dsouza-92957988/</a><br/>
               Instagram: <a href="https://instagram.com/alfaman747/" target="_blank" rel="noopener noreferrer">https://instagram.com/alfaman747</a><br />
               Youtube: <a href="https://www.youtube.com/@AlfaMAN747/" target="_blank" rel="noopener noreferrer">https://www.youtube.com/@AlfaMAN747</a>
             </Typography>
@@ -195,9 +205,23 @@ function App() {
         )}
         {visibleSection === 'home' && (
           <>
+            {renderVideos('Original Music Songs Written, Composed, Sung, Mixed/Mastered by Me', songs.original)}
             {renderVideos('New Songs Sung by Me', songs.new)}
             {renderVideos('Old Songs Sung by Me', songs.old)}
             {renderVideos('Recomposed Songs by Me and Sung by Me', songs.recomposed)}
+
+            <Typography variant="body1" paragraph>
+              Mobile Number: +91 - 9900272747<br />
+              Email: alfreddsouza97@gmail.com<br />
+              GitHub: <a href="https://github.com/alfreddsouza97" target="_blank" rel="noopener noreferrer">https://github.com/alfreddsouza97</a><br />
+              LinkedIn: <a href="https://www.linkedin.com/in/alfred-marshall-dsouza-92957988/" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/alfred-marshall-dsouza-92957988/</a><br/>
+              Instagram: <a href="https://instagram.com/alfaman747/" target="_blank" rel="noopener noreferrer">https://instagram.com/alfaman747</a><br />
+              Youtube: <a href="https://www.youtube.com/@AlfaMAN747/" target="_blank" rel="noopener noreferrer">https://www.youtube.com/@AlfaMAN747</a>
+          
+            </Typography>
+            <Typography variant="h6" component="h2" gutterBottom color="primary">
+              This Website Application code is written by me. Website Developed by ALFRED MARSHALL DSOUZA.
+            </Typography>
           </>
         )}
       </Container>
